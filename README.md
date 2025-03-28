@@ -82,6 +82,7 @@ And not only that, we also have mobile phones and tablets now, which makes us ha
 
 # HTML5 
 
+Let's create our first HTML page by creating a file called `index.html` in VS Code:
 ```html
 <!DOCTYPE html>
 <html>
@@ -131,6 +132,8 @@ Self-closing tags include:
 - horizontal line: `<hr>`
 - image: `<img>`
 
+### Image tag
+
 Generally, an image element goes with the following **attributes**:
 ```html
 <img src="path-to-image" alt="txt-describing-img" width="42" height="42">
@@ -147,14 +150,18 @@ Hyperlinks are **clickable** elements that can:
 
 Hyperlinks are also crucial for search engine optimization (SEO), more on that later on.  
 
-Example anchor tag:
+Let's create an anchor tag that links to a new page:
 ```html
 <a href="newpage.html">new page</a>
 ```
 The `href` attribute stands for 'hypertext reference'.  
 The href value is the destination, but we need something between the opening and closing tags, something we can click on.  
 
-We can nest any element inside an anchor tag:
+Now we need to create a `newpage.html` file with some basic contents.  
+In VS Code, we can just type `!` and hit enter to generate a basic HTML template.  
+
+We can nest any HTML element inside an anchor tag.   
+For example, we can create an h2 element that allows us to go back to the previous page:
 ```html
 <a href="index.html">
   <h2>back to previous page</h2>
@@ -165,9 +172,13 @@ We can nest any element inside an anchor tag:
 
 # Advanced HTML5
 
-Last time, we created 2 files: index.html and newpage.html to demonstrate the power of anchor tags, also called hyperlinks.  
-Now, let's see another very important feature: HTML Forms. Forms are useful for collecting data, or authenticating to a website.
+Last time, we created 2 files: `index.html` and `newpage.html` to demonstrate the power of **anchor tags**, or **hyperlinks**.  
+Now, let's see another very important feature: HTML **Forms**. Forms are useful for collecting data, or authenticating to a website.
 
 ## HTML Forms
+
+Let's create a new file in VS Code called `register.html`. Use the Emmet abbreviation `!` to generate a basic HTML template.  
+Then, add the following link to our index.html file: `<a href="register.html">Register</a>`  
+Note that we can insert a line break `<br>` between our new page anchor tag and this Register link.  
 
 
