@@ -183,5 +183,8 @@ Note that we can insert a line break `<br>` between our new page anchor tag and 
 
 See `register.html` for the form example.  
 
+To make an input field required, we need to add the `required` attribute.  
 To make all **radio buttons** part of the same group, we need to add the `name` attribute to each of them.  
+
+## Submitting a form
 
