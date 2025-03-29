@@ -205,7 +205,16 @@ The `method` attribute defines the **HTTP method** used to send form data, it ca
   - Limited by URL length restrictions.
 
 Example query string generated when using the GET method:   
-`?firstname=fast&lastname=furious&email=fake%40gmail.com&password=12345678&birthday=2025-03-12&gender=male&dog=on&cars=Mercedes`
+```http
+?firstname=fast
+&lastname=furious
+&email=fake%40gmail.com
+&password=12345678
+&birthday=2025-03-12
+&gender=male
+&dog=on
+&cars=Mercedes
+```
 
 - **POST**:
   - Sends form data in the request body, making it more secure.
