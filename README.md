@@ -232,16 +232,11 @@ With a QWERTY keyboard layout, the shortcut is `Ctrl + /`.
 ## The <div> and <span> elements
 
 These tags are used to group elements together in an invisible container, to divide the page into sections.  
-But it's considered best practice to use semantic HTML elements instead.  
+But it's recommended to use semantic HTML elements instead.  
 
-Semantic elements include: 
-- `<header>`
-- `<nav>`
-- `<main>`
-- `<section>`
-- `<article>`
-- `<aside>`
-- `<footer>`
+More on **semantic** HTML elements: https://www.w3schools.com/html/html5_semantic_elements.asp  
+Using semantic HTML elements is a good practice because it makes the code more readable and understandable.  
+It also helps search engines understand the content of the page better, so it's good for **SEO**.  
 
 Dividing your html page into sections is very useful for styling purposes.  
 More on that when we get to learning **CSS**.  
