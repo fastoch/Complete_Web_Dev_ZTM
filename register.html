@@ -10,23 +10,23 @@
   <a href="index.html">
     <h3>Back to home page</h3>
   </a>
-  <form>
-    First name: <input type="text"><br><br>
-    Last name: <input type="text"><br><br>
-    Email: <input type="email" required><br><br>
-    Password: <input type="password" minlength="8"><br><br>
-    Birthday: <input type="date"><br><br>
+  <form method="get">
+    First name: <input type="text" name="firstname"><br><br>
+    Last name: <input type="text" name="lastname"><br><br>
+    Email: <input type="email" name="email" required><br><br>
+    Password: <input type="password" name="password" minlength="8"><br><br>
+    Birthday: <input type="date" name="birthday"><br><br>
     Gender: <br>
-      <input type="radio" name="Gender">Male<br>
-      <input type="radio" name="Gender">Female<br>
-      <input type="radio" name="Gender">intersex<br><br>
+      <input type="radio" name="gender" value="male">Male<br>
+      <input type="radio" name="gender" value="female">Female<br>
+      <input type="radio" name="gender" value="intersex">intersex<br><br>
     Pets: <br>
-      <input type="checkbox">Cat<br>
-      <input type="checkbox">Dog<br>
-      <input type="checkbox">Fish<br>
-      <input type="checkbox">Bird<br><br>
+      <input type="checkbox" name="cat">Cat<br>
+      <input type="checkbox" name="dog">Dog<br>
+      <input type="checkbox" name="fish">Fish<br>
+      <input type="checkbox" name="bird">Bird<br><br>
     Cars: <br>
-      <select>
+      <select name="cars">
         <option value="Audi">Audi</option>
         <option value="BMW">BMW</option>
         <option value="Ford">Ford</option>
@@ -40,3 +40,4 @@
   </form>
 </body>
 </html>
+

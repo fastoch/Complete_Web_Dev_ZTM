@@ -188,3 +188,29 @@ To make all **radio buttons** part of the same group, we need to add the `name` 
 
 ## Submitting a form
 
+Check the `register.html` file for more details.  
+
+### The 'name' attribute for the input fields
+
+In order to submit a form, we first need to add the `name` attribute to all the fields that require user input.  
+
+### The 'method' attribute for the form tag
+
+Then, we need to add the `method` attribute to the form tag.  
+
+The `method` attribute defines the **HTTP method** used to send form data, it can be set to `GET` or `POST`.  
+- **GET**:
+  - Appends form data as query parameters in the URL: 
+  example query string:   
+  `?firstname=fast&lastname=furious&email=fake%40gmail.com&password=12345678&birthday=2025-03-12&gender=male&dog=on&cars=Mercedes`
+  - Suitable for non-sensitive data, like search queries.
+  - Limited by URL length restrictions.
+
+- **POST**:
+  - Sends form data in the request body, making it more secure.
+  - Suitable for sensitive data or when the form data should not be visible in the URL.
+  - Supports larger data payloads.
+
+
+
+
