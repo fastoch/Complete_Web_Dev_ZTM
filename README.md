@@ -221,6 +221,32 @@ Example query string generated when using the GET method:
   - Suitable for sensitive data or when the form data should not be visible in the URL.
   - Supports larger data payloads.
 
+## HTML comments
+
+HTML comments are used to add notes or explanations within the HTML code. They are not displayed on the webpage.  
+To add a comment, we use the `<!-- my comment -->` syntax.  
+
+In VS Code, the keyboard shortcut to comment/uncomment is `Ctrl + :` (AZERTY french keyboard layout).  
+With a QWERTY keyboard layout, the shortcut is `Ctrl + /`.  
+
+## The <div> and <span> elements
+
+These tags are used to group elements together in an invisible container, to divide the page into sections.  
+But it's considered best practice to use semantic HTML elements instead.  
+
+Semantic elements include: 
+- `<header>`
+- `<nav>`
+- `<main>`
+- `<section>`
+- `<article>`
+- `<aside>`
+- `<footer>`
+
+Dividing your html page into sections is very useful for styling purposes.  
+More on that when we get to learning **CSS**.  
+
+The difference between `<div>` and `<span>` is that `<div>` is a **block-level** element, while `<span>` is an **inline** element.  
 
 
 
