@@ -181,4 +181,7 @@ Let's create a new file in VS Code called `register.html`. Use the Emmet abbrevi
 Then, add the following link to our index.html file: `<a href="register.html">Register</a>`  
 Note that we can insert a line break `<br>` between our new page anchor tag and this Register link.  
 
+See `register.html` for the form example.  
+
+To make all **radio buttons** part of the same group, we need to add the `name` attribute to each of them.  
 
