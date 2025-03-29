@@ -200,11 +200,12 @@ Then, we need to add the `method` attribute to the form tag.
 
 The `method` attribute defines the **HTTP method** used to send form data, it can be set to `GET` or `POST`.  
 - **GET**:
-  - Appends form data as query parameters in the URL: 
-  example query string:   
-  `?firstname=fast&lastname=furious&email=fake%40gmail.com&password=12345678&birthday=2025-03-12&gender=male&dog=on&cars=Mercedes`
+  - Appends form data as query parameters in the URL (see example below) 
   - Suitable for non-sensitive data, like search queries.
   - Limited by URL length restrictions.
+
+Example query string generated when using the GET method:   
+`?firstname=fast&lastname=furious&email=fake%40gmail.com&password=12345678&birthday=2025-03-12&gender=male&dog=on&cars=Mercedes`
 
 - **POST**:
   - Sends form data in the request body, making it more secure.
