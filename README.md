@@ -293,9 +293,9 @@ CSS uses a **scoring system** to determine which rule is more specific and shoul
 
 The order of precedence is:
 1. Inline styles (cf. next section)
-2. IDs (#id)
-3. Classes (.class, :pseudo-class)
-4. Element selectors (body, header, h1, p, nav, etc.)
+2. IDs 
+3. Classes and pseudo-classes (e.g. :hover, :active, :focus, etc.)
+4. Element (body, h1, p, nav, etc.) and pseudo-elements (e.g. ::before, ::after, etc.)
 5. Universal selectors (*) and inherited styles (from parent elements)
 
 ## Inline styles
@@ -366,7 +366,25 @@ Colors in CSS can be specified in different ways:
 
 ## CSS Selectors
 
+In order of precedence:
+- `#id`
+- `.class`
+- `element:pseudo-class`: :hover, :first-child, : last-child, etc. 
+  - `:hover`: apply style to an element when the user hovers over it with the mouse
+  - `:first-child`: apply style to the first child element of a parent element
+  - `:last-child`: apply style to the last child element of a parent element
+  - `:nth-child(n)`: apply style to the nth child element of a parent element
+- `element`: apply style to all elements of a certain type
+- `element, element`: apply style to multiple elements at once
+- `element element`: apply style to nested elements (no need to be a direct child)
+- `element > element`: apply style to direct child elements
+- `element + element`: apply style to an element that immediately follows another element
+- `element::pseudo-element`: apply style to a pseudo-element
+- `*`: universal selector, apply style to all elements 
 
+To override any of the above styling, we have 2 options (but they're **not recommended**):
+- use the `!important` keyword right before the semicolon at the end of the rule
+- use inline styles (directly on the HTML element)
 
 ---
 
