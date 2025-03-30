@@ -288,12 +288,13 @@ Instead, we should use classes and IDs, more on that topic later on.
 >When two rules have the same specificity, the one defined later in the CSS file takes precedence.  
 
 CSS uses a **scoring system** to determine which rule is more specific and should be applied:  
-https://www.w3schools.com/css/css_specificity.asp
+- https://specificity.keegan.st/
+- https://www.w3schools.com/css/css_specificity.asp
 
 The order of precedence is:
 1. Inline styles (cf. next section)
-2. IDs (#idName)
-3. Classes (.className, :pseudo-class)
+2. IDs (#id)
+3. Classes (.class, :pseudo-class)
 4. Element selectors (body, header, h1, p, nav, etc.)
 5. Universal selectors (*) and inherited styles (from parent elements)
 

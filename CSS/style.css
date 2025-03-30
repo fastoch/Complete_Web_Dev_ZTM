@@ -6,7 +6,9 @@ Selector {
 
 body {
   /* the linear gradient allows us to modify the background image opacity*/
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("lukas-blazek-unsplash.jpg");
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
+    url("lukas-blazek-unsplash.jpg");
   background-size: cover;
 }
 
@@ -28,6 +30,9 @@ h2 {
   cursor: pointer;
 }
 
-p {
+.webtext {
   font-size: 1.5rem;
+  text-align: center;
+  border: 2px outset rgba(179, 0, 255, 0.8);
+  padding: 1rem 0;
 }
