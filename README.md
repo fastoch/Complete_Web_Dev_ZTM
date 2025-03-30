@@ -253,6 +253,8 @@ The difference between `<div>` and `<span>` is that `<div>` is a **block-level**
 
 All files for this section are in the CSS folder.  
 
+## External stylesheet
+
 Let's create our first CSS file called `style.css`.  
 
 The basic syntax of a CSS rule is:
@@ -269,10 +271,14 @@ h2 {
 }
 ```
 
-But this won't apply until we add a link to our CSS file in the HTML file:
+But this won't apply until we add a link to our CSS file in the index.html file:
 ```html
 <link rel="stylesheet" href="style.css">
 ```
+
+And if we want to apply the same styles to other .html files, we need to add the same link to them.  
+We can also have a different CSS file for each .html file, but that's not very efficient.  
+Instead, we should use classes and IDs, more on that topic later on.
 
 ## Cascading Style Sheets
 
@@ -281,12 +287,60 @@ But this won't apply until we add a link to our CSS file in the HTML file:
 >[!impoortant]
 >When two rules have the same specificity, the one defined later in the CSS file takes precedence.  
 
+CSS uses a **scoring system** to determine which rule is more specific and should be applied:  
+https://www.w3schools.com/css/css_specificity.asp
+
 The order of precedence is:
-1. Inline styles (applied directly to the HTML element using the style attribute)
+1. Inline styles (cf. next section)
 2. IDs (#idName)
-3. Classes (.className)
-4. Element selectors (headings, paragraphs, etc.)
-5. Universal selectors (*) and inherited styles
+3. Classes (.className, :pseudo-class)
+4. Element selectors (body, header, h1, p, nav, etc.)
+5. Universal selectors (*) and inherited styles (from parent elements)
+
+## Inline styles
+
+Using an external stylesheet is the best and most common practice.  
+However, there might be some cases where we need to use inline styles.  
+
+Inline styles are applied directly to the HTML elements using the `style` attribute.  
+This was the original way of applying styles to HTML elements, until CSS was invented.  
+
+Here's an example:
+```html
+<header style="color: blue; background-color: yellow;">Hello World</h1>
+```
+
+## The style tag
+
+We saw how to use an external stylesheet, then we learnt how to apply inline styles.  
+There's a third way to apply styles to HTML elements: by adding a `<style>` tag inside the `<head>` tag.  
+
+**Example**:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <!--- ... -->
+  <style>
+    h1 {
+      color: red;
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <!-- ... -->
+</body>
+</html>
+```
+
+### SEPARATION OF CONCERNS
+
+Using inline styles or the `<style>` tag is not recommended, because it can make the HTML code harder to read and maintain.  
+The **best practice** is to use an external stylesheet, or multiple external stylesheets.  
+
+As a general rule, try and keep your HTML code separated from your CSS code. The same applies to JavaScript.  
+This principle is called **separation of concerns**. It helps keep your code organized and easier to maintain.
 
 ---
 
