@@ -41,7 +41,7 @@ First website ever: https://info.cern.ch/hypertext/WWW/TheProject.html
 
 ---
 
-# HTML, CSS, JavaScript (JS)
+# HTML, CSS, and JavaScript (JS)
 
 In this course, we're going to learn HTML5, CSS3, and JavaScript + React. That is for the **frontend** part.
 
@@ -81,6 +81,8 @@ And not only that, we also have mobile phones and tablets now, which makes us ha
 ---
 
 # HTML5 
+
+The following file is in the HTML folder.    
 
 Let's create our first HTML page by creating a file called `index.html` in VS Code:
 ```html
@@ -172,6 +174,8 @@ For example, we can create an h2 element that allows us to go back to the previo
 
 # Advanced HTML5
 
+All files for this section are in the HTML folder.  
+
 Last time, we created 2 files: `index.html` and `newpage.html` to demonstrate the power of **anchor tags**, or **hyperlinks**.  
 Now, let's see another very important feature: HTML **Forms**. Forms are useful for collecting data, or authenticating to a website.
 
@@ -243,5 +247,33 @@ More on that when we get to learning **CSS**.
 
 The difference between `<div>` and `<span>` is that `<div>` is a **block-level** element, while `<span>` is an **inline** element.  
 
+---
 
+# CSS
+
+All files for this section are in the CSS folder.  
+
+Let's create our first CSS file called `style.css`.  
+The basic syntax of a CSS rule is:
+```css
+selector {
+  property: value;
+}
+```
+
+Let's say we want the "Home" heading inside the index.html to be in red:
+```css
+h2 {
+  color: red;
+}
+```
+
+But this won't apply until we add a link to our CSS file in the HTML file:
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+---
+
+# Advanced CSS
 
