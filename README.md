@@ -254,6 +254,7 @@ The difference between `<div>` and `<span>` is that `<div>` is a **block-level**
 All files for this section are in the CSS folder.  
 
 Let's create our first CSS file called `style.css`.  
+
 The basic syntax of a CSS rule is:
 ```css
 selector {
@@ -272,6 +273,20 @@ But this won't apply until we add a link to our CSS file in the HTML file:
 ```html
 <link rel="stylesheet" href="style.css">
 ```
+
+## Cascading Style Sheets
+
+"**Cascading**" means that it follows a specific order when applying styles to HTML elements.  
+
+>[!impoortant]
+>When two rules have the same specificity, the one defined later in the CSS file takes precedence.  
+
+The order of precedence is:
+1. Inline styles (applied directly to the HTML element using the style attribute)
+2. IDs (#idName)
+3. Classes (.className)
+4. Element selectors (headings, paragraphs, etc.)
+5. Universal selectors (*) and inherited styles
 
 ---
 
