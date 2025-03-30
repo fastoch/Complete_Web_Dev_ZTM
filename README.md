@@ -280,7 +280,7 @@ And if we want to apply the same styles to other .html files, we need to add the
 We can also have a different CSS file for each .html file, but that's not very efficient.  
 Instead, we should use classes and IDs, more on that topic later on.
 
-## Cascading Style Sheets
+## Cascading Style Sheets - a word about specificity
 
 "**Cascading**" means that it follows a specific order when applying styles to HTML elements.  
 
@@ -341,6 +341,31 @@ The **best practice** is to use an external stylesheet, or multiple external sty
 
 As a general rule, try and keep your HTML code separated from your CSS code. The same applies to JavaScript.  
 This principle is called **separation of concerns**. It helps keep your code organized and easier to maintain.
+
+## CSS Properties
+
+Useful resources: 
+- https://css-tricks.com/almanac/
+- https://www.w3schools.com/cssref/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+See the `style.css` file inside the `CSS` folder for the most common properties.  
+
+### Colors
+
+Useful resource: https://coolors.co/  
+
+Colors in CSS can be specified in different ways:
+- RGB values (red, green, blue)
+- RGBA values (red, green, blue, alpha)
+  - alpha is the opacity of the color (0 = transparent, 1 = opaque)
+- Hexadecimal values (#RRGGBB)
+- HSL values
+- Predefined color names
+
+## CSS Selectors
+
+
 
 ---
 

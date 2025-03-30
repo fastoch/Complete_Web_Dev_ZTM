@@ -4,10 +4,30 @@ Selector {
 } 
 */
 
+body {
+  /* the linear gradient allows us to modify the background image opacity*/
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("lukas-blazek-unsplash.jpg");
+  background-size: cover;
+}
+
+nav {
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none; /* removes bullet points */
+  display: inline-block; /* showss list items horizontally */
+  padding: 1rem; /* adds space between list items */
+}
+
 h2 {
-  color: red;
+  color: purple;
+  text-align: center;
+  font-size: 3rem;
+  border: 0.5rem ridge rgba(187, 37, 187, 0.8);
+  cursor: pointer;
 }
 
 p {
-  color: blue;
+  font-size: 1.5rem;
 }
