@@ -30,10 +30,23 @@ h2 {
   cursor: pointer;
 }
 
+img {
+  float: left;
+  padding: 1rem;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
 .webtext {
   font-family: "Atma", system-ui;
   font-weight: 400;
   font-style: normal;
   font-size: 150%;
+  line-height: 30px;
   color: rgb(91, 2, 91);
+  border: 2px solid rgb(187, 37, 187);
+  padding: 1rem;
 }

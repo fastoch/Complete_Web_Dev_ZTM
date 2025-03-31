@@ -414,6 +414,34 @@ We can use a **web font**, which is a font that is hosted on a server and can be
 
 Google Fonts are the most popular option when it comes to web fontss: https://fonts.google.com/
 
+## Images in CSS
+
+about.html
+```html
+<img 
+  src="https://www.ipnoze.com/wordpress/wp-content/uploads/2019/01/alpagas-droles-mignons-007.jpg" 
+  alt="cute alpaga"
+  width="200px" height="auto"
+>
+```
+
+style.css
+```css
+img {
+  float: left;
+  padding: 1rem;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+```
+
+## Box Model
+
+
+
 ---
 
 # Advanced CSS
