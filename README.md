@@ -386,6 +386,9 @@ To override any of the above styling, we have 2 options (but they're **not recom
 - use the `!important` keyword right before the semicolon at the end of the rule
 - use inline styles (directly on the HTML element)
 
+>[!important]
+>Train yourself to use the right selector for the job: https://css-diner.netlify.app/
+
 ---
 
 # Advanced CSS
