@@ -8,7 +8,7 @@ body {
   /* the linear gradient allows us to modify the background image opacity*/
   background: 
     linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
-    url("lukas-blazek-unsplash.jpg");
+    url("/assets/lukas-blazek-unsplash.jpg");
   background-size: cover;
 }
 

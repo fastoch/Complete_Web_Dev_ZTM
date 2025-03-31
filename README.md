@@ -440,7 +440,7 @@ footer {
 
 ## Box Model
 
-
+![box_model](/assets/box_model.png)
 
 ---
 
