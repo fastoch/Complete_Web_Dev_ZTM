@@ -391,7 +391,28 @@ To override any of the above styling, we have 2 options (but they're **not recom
 
 ## Text and Font
 
+Here are some useful properties for text:
+- to space out lines: `line-height`
+- to change text boldness: `font-weight`
+- to change text alignment: `text-align`
+- to change text decoration: `text-decoration`
+- to modify font size: `font-size`
+- to set font family: `font-family`
 
+### Font Family
+
+For the font family, we can use a list of font names, separated by commas.  
+Font names must be in **quotes** if they contain **spaces**.  
+
+The browser will try to use the first font name in the list that is available on the user's computer.  
+If the font is not available, the browser will use the next font in the list.  
+
+When selecting the font for you website/web app, it's best to use a **web-safe font** (a font that is available on most computers).  
+
+What if we have a super cool font that we want to use? How do we make sure that any user can enjoy it?  
+We can use a **web font**, which is a font that is hosted on a server and can be loaded by the browser.  
+
+Google Fonts are the most popular option when it comes to web fontss: https://fonts.google.com/
 
 ---
 
