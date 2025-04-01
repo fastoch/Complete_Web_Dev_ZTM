@@ -50,3 +50,10 @@ footer {
   border: 2px solid rgb(187, 37, 187);
   padding: 1rem;
 }
+
+.boxmodel {
+  border: 5px solid red;
+  display: inline-block;
+  padding: 5px 20px 5px 20px;  /* top right bottom left */
+  margin: 20px;
+}
