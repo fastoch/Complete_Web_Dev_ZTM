@@ -448,9 +448,15 @@ In our example, using the `clear` property on the footer allows it to be display
 
 ![box_model](/assets/box_model.png)  
 
-- padding: space between the content and the border
-- border: the border around the content
-- margin: space between the border and the other elements
+- `padding`: space between the content and the border
+- `border`: the border around the content
+- `margin`: space between the border and the other elements
+
+To change the content size, we can use the `width` and `height` properties.
+
+## px vs em vs rem
+
+
 
 ---
 

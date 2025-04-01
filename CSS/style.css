@@ -55,5 +55,6 @@ footer {
   border: 5px solid red;
   display: inline-block;
   padding: 5px 20px 5px 20px;  /* top right bottom left */
-  margin: 20px;
+  padding: 5px 20px; /* shorthand for top+bottom and left+right */
+  margin: 20px; /* applies to all four sides */
 }
