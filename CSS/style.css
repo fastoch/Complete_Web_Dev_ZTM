@@ -30,6 +30,14 @@ h2 {
   cursor: pointer;
 }
 
+p {
+  font-size: 20px;
+}
+
+span {
+  font-size: 2em; /* 2x the size of the parent element */
+}
+
 img {
   float: left;
   padding: 1rem;

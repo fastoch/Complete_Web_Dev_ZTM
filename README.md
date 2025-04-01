@@ -456,7 +456,9 @@ To change the content size, we can use the `width` and `height` properties.
 
 ## px vs em vs rem
 
-
+- `px`: pixels, fixed size, not responsive
+- `em`: relative to the font size of the parent element, **responsive**
+- `rem`: relative to the font size of the root element (html), usually 16px, **responsive**
 
 ---
 
