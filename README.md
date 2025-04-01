@@ -454,13 +454,51 @@ In our example, using the `clear` property on the footer allows it to be display
 
 To change the content size, we can use the `width` and `height` properties.
 
-## px vs em vs rem
+## CSS units
 
 - `px`: pixels, fixed size, not responsive
 - `em`: relative to the font size of the parent element, **responsive**
 - `rem`: relative to the font size of the root element (html), usually 16px, **responsive**
+- `%`: relative to the parent element, **responsive**
+- `vw`: relative to the viewport width, **responsive**
+- `vh`: relative to the viewport height, **responsive**
+
+More info: https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/
 
 ---
 
 # Advanced CSS
 
+## Critical Rendering Path
+
+The Critical Rendering Path (CRP) is the sequence of steps browsers use to convert HTML, CSS, and JavaScript into visible pixels on screen.  
+
+Optimizing this process reduces initial page load times and improves perceived performance, directly impacting user experience and SEO rankings.  
+
+To optimize loading times, we can use the following techniques:
+- **Minify CSS and JS files**: remove unnecessary whitespace and comments 
+- Remove unused CSS rules
+- Use **media queries** to load conditional CSS
+- Defer non-critical JavaScript with `async/defer`
+- Having our asset files hosted on a **CDN**: font files, images, etc.
+
+### Content Delivery Network (CDN)
+
+A **Content Delivery Network** (CDN) is a system of geographically distributed servers designed to deliver web content efficiently and quickly to users based on their location.  
+
+By caching data on servers closer to the end user, CDNs reduce latency, improve loading speeds, and enhance the overall user experience (UX).  
+
+## Flexbox
+
+Flexbox is a layout model that allows us to create flexible and responsive layouts.  
+
+In this chapter, we will be building an image gallery that is fully responsive.  
+This means that the layout will adapt to different screen sizes and resolutions.  
+
+Here are the links to the images used:  
+- https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg
+- https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg
+- https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg
+- https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg
+- https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg
+- https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg
