@@ -438,10 +438,10 @@ footer {
 }
 ```
 
-**NOTE**:   
+**IMPORTANT NOTE**:   
 `float` is a property that allows us to position an element to the left or right of its container.  
 When using this property, the element will be removed from the normal flow of the page, and other elements will wrap around it.  
-Which is why we need to use `clear` to clear the float and make sure that the footer is displayed correctly.
+Which is why we need to use `clear` to clear the float from adjacent elements, and make sure the footer is displayed correctly.
 
 ## Box Model
 
