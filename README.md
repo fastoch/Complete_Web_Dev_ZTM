@@ -497,6 +497,7 @@ This means that the layout will adapt to different screen sizes and resolutions.
 
 Useful resources:
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://darekkay.com/flexbox-cheatsheet/
 - https://flexboxfroggy.com/
 
 For this lesson, see the `flexbox` folder.  
