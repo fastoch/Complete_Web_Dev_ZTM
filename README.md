@@ -495,10 +495,9 @@ Flexbox is a layout model that allows us to create flexible and responsive layou
 In this chapter, we will be building an image gallery that is fully responsive.  
 This means that the layout will adapt to different screen sizes and resolutions.  
 
-Here are the links to the images used:  
-- https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg
-- https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg
-- https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg
-- https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg
-- https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg
-- https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg
+Useful resources:
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://flexboxfroggy.com/
+
+For this lesson, see the `flexbox` folder.  
+
