@@ -501,3 +501,18 @@ Useful resources:
 
 For this lesson, see the `flexbox` folder.  
 
+We start by reducing the size of the images:
+```css
+img {
+  width: 50%;
+  height: auto;
+}
+```
+
+We defined a div with a `container` class that will be the parent of all the images.  
+Then, in our CSS file, we use the `display: flex;` rule to make the div a flex container.  
+
+After adding this rule, the images are now displayed in a row, instead of being stacked vertically.  
+But we don't want to scroll horizontally to see them all, so we need to add the `flex-wrap: wrap;` rule.  
+
+
