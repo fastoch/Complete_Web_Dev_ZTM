@@ -516,4 +516,28 @@ Then, in our CSS file, we use the `display: flex;` rule to make the div a flex c
 After adding this rule, the images are now displayed in a row, instead of being stacked vertically.  
 But we don't want to scroll horizontally to see them all, so we need to add the `flex-wrap: wrap;` rule.  
 
+### Flexbox properties
+
+The `justify-content`property aligns items **horizontally** and accepts the following values:
+- `flex-start`: Items align to the left side of the container.
+- `flex-end`: Items align to the right side of the container.
+- `center`: Items align at the center of the container.
+- `space-between`: Items display with equal spacing between them.
+- `space-around`: Items display with equal spacing around them.
+
+The `align-items` property aligns items **vertically** and accepts the following values:
+- `flex-start`: Items align to the top of the container.
+- `flex-end`: Items align to the bottom of the container.
+- `center`: Items align at the vertical center of the container.
+- `baseline`: Items display at the baseline of the container.
+- `stretch`: Items are stretched to fit the container.
+
+The `flex-direction` property defines the direction of the flex items and accepts the following values:
+- `row`: Items are displayed horizontally from left to right.
+- `row-reverse`: Items are displayed horizontally from right to left.
+- `column`: Items are displayed vertically from top to bottom.
+- `column-reverse`: Items are displayed vertically from bottom to top.
+
+Note that when `flex-direction` is set to `column`, `justify-content` changes to the vertical and `align-items` to the horizontal.  
+
 
