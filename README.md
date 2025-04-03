@@ -577,4 +577,22 @@ This can be confusing, but `align-content` determines the spacing between **line
 while `align-items` determines how the items as a whole are aligned within the container.  
 When there is only one line, `align-content` has no effect.  
 
+## Transition & Transform
+
+Going back to our image gallery, we can add a hover effect to the images:
+```css
+img {
+  width: 50%;
+  height: auto;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+```
+The above code will make the images grow by 10% when hovered over.  
+The `transition` property is used to specify the duration of the transformation.  
+
+The `all` keyword specifies that the transition should apply to all animatable CSS properties of the element (color, background-color, transform, opacity, etc.). If you want to target specific properties, you can replace `all` with the property names.  
 
