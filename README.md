@@ -516,7 +516,7 @@ Then, in our CSS file, we use the `display: flex;` rule to make the div a flex c
 After adding this rule, the images are now displayed in a row, instead of being stacked vertically.  
 But we don't want to scroll horizontally to see them all, so we need to add the `flex-wrap: wrap;` rule.  
 
-### Flexbox properties
+### Flexbox properties - global
 
 The `justify-content`property aligns items **horizontally** and accepts the following values:
 - `flex-start`: Items align to the left side of the container.
@@ -538,6 +538,43 @@ The `flex-direction` property defines the direction of the flex items and accept
 - `column`: Items are displayed vertically from top to bottom.
 - `column-reverse`: Items are displayed vertically from bottom to top.
 
+**IMPORTANT**:  
 Note that when `flex-direction` is set to `column`, `justify-content` changes to the vertical and `align-items` to the horizontal.  
+
+### Flexbox properties - individual items
+
+Sometimes **reversing** the row or column order of a container **is not enough**.  
+In these cases, we can apply the `order` property to individual items.  
+By default, items have a value of 0, but we can set the order property to a positive or negative integer value.  
+
+Another property you can apply to individual items is `align-self`, it accepts the same values as `align-items`.  
+
+### Flexbox properties - flex-wrap
+
+If items are squeezed onto a single row, we can spread them out using the `flex-wrap` property, which accepts the following values:
+- `nowrap`: Every item is fit to a single line.
+- `wrap`: Items wrap around to additional lines.
+- `wrap-reverse`: Items wrap around to additional lines in reverse.
+
+### Flexbox properties - flex-flow
+
+The two properties `flex-direction` and `flex-wrap` are used so often together that the shorthand property `flex-flow` was created to combine them. This shorthand property accepts the value of the two properties separated by a space.  
+
+For example, you can use `flex-flow: row wrap;` to set rows and wrap them.  
+
+### Flexbox properties - align-content
+
+You can use `align-content` to set how multiple lines are spaced apart from each other.  
+This property takes the following values:
+- `flex-start`: Lines are packed at the top of the container.
+- `flex-end`: Lines are packed at the bottom of the container.
+- `center`: Lines are packed at the vertical center of the container.
+- `space-between`: Lines display with equal spacing between them.
+- `space-around`: Lines display with equal spacing around them.
+- `stretch`: Lines are stretched to fit the container.
+
+This can be confusing, but `align-content` determines the spacing between **lines**,  
+while `align-items` determines how the items as a whole are aligned within the container.  
+When there is only one line, `align-content` has no effect.  
 
 
