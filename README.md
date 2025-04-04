@@ -577,7 +577,7 @@ This can be confusing, but `align-content` determines the spacing between **line
 while `align-items` determines how the items as a whole are aligned within the container.  
 When there is only one line, `align-content` has no effect.  
 
-## Transition & Transform
+## Transition & Transform (basic example)
 
 Going back to our image gallery, we can add a hover effect to the images:
 ```css
@@ -611,3 +611,44 @@ For such experimental properties, the browser vendors add a prefix to the proper
 
 Another useful resource is the **Can I Use** website:  
 https://caniuse.com/
+
+---
+
+## Mastering Transitions and Transforms
+
+resource: https://thoughtbot.com/blog/transitions-and-transforms  
+
+When used together, the `transition` and `transform` properties allow us to create simple animations and add valuable interaction and visual feedback for our users.  
+
+Transforms move or change the appearance of an element, while Transitions make the element smoothly and gradually change from one state to another.  
+
+### CSS Transitions
+
+Without a transition, an element being transformed would change abruptly from one state to another.   
+By applying a transition you can control the change, making it smooth and gradual.  
+
+There are 2 properties that are **required** in order for the transition to take effect:
+- `transition-property`
+- `transition-duration`
+
+Each transition property can be defined individually, but for cleaner and faster code, it’s **recommended** that you use the `transition` shorthand.  
+
+Here’s the full shorthand sequence. Once again, only the first two properties are required:
+```css
+selector {
+  transition: [property] [duration] [timing-function] [delay];
+}
+```  
+
+The `transition-property` specifies the CSS property where the transition will be applied.   
+You may apply a transition to an individual property (e.g., `background-color` or `transform`) or to all properties in the rule-set (i.e., `all`).  
+
+The `transition-duration` property specifies the time span of the transition.  
+You can specify in seconds or milliseconds.  
+
+
+
+---
+
+## Responsive UI
+

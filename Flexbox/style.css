@@ -10,7 +10,8 @@ h1 {
   text-align: center;
   /* the next 2 lines are to center the h1 */
   width: 50%;
-  margin: 2rem 25%
+  margin: 2rem 25%;
+  box-shadow: 5px 5px 5px #888;
 }
 
 img {
