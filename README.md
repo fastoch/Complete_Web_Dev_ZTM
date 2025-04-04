@@ -596,3 +596,16 @@ The `transition` property is used to specify the duration of the transformation.
 
 The `all` keyword specifies that the transition should apply to all animatable CSS properties of the element (color, background-color, transform, opacity, etc.). If you want to target specific properties, you can replace `all` with the property names.  
 
+## CSS newest features
+
+To know if a CSS property is supported by a browser, you can check this website:  
+https://www.w3schools.com/cssref/css3_browsersupport.php
+
+### Browser prefixes
+
+Sometimes, we need to use a **browser prefix** before the property name to make it work:  
+![browser_prefix](/assets/prefix.png.png)  
+
+That happens when a new CSS property is introduced, and the browser vendors haven't implemented it yet.  
+For such experimental properties, the browser vendors add a prefix to the property name to indicate that it's still in development.  
+
