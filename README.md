@@ -644,7 +644,18 @@ The `transition-property` specifies the CSS property where the transition will b
 You may apply a transition to an individual property (e.g., `background-color` or `transform`) or to all properties in the rule-set (i.e., `all`).  
 
 The `transition-duration` property specifies the time span of the transition.  
-You can specify in seconds or milliseconds.  
+You can specify a value in seconds or milliseconds.  
+
+The `transition-timing-function` property allows you to define the speed of the transition over the duration.  
+The default timing is `ease`, which starts out slow, quickly speeds up, and then slows down at the end.  
+The other timing options are: `linear`, `ease-in`, `ease-out`, and `ease-in-out`.  
+For more advanced timing options, you can define a custom timing function with a `cubic-bezier`.  
+
+The `transition-delay` property allows you to specify when the transform will start.  
+By default, it starts as soon as it is triggered (e.g., on mouse hover).  
+However, if you want it to start after a certain time, you can use the `transition-delay` property.
+
+### CSS Transforms
 
 
 
