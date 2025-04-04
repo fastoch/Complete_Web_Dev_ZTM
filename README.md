@@ -657,7 +657,79 @@ However, if you want it to start after a certain time, you can use the `transiti
 
 ### CSS Transforms
 
+Now that we reviewed how to make smooth and gradual transitions, let’s see how to make an element change from one state to another. 
+With the CSS `transform` property you can rotate, move, skew, and scale elements.  
 
+Transforms are triggered when an element changes states, such as on mouse-hover or mouse-click.  
+
+---
+
+The **scale** value allows you to increase or decrease the size of an element.  
+For example, the value 2 would transform the size to be 2 times its original size.   
+The value 0.5 would transform the size to be half its original size.  
+
+You can scale an element by setting parameters for the width (X-axis) or height (Y-axis).  
+For example, `transform: scaleX(2);`.  
+
+Or, use the scale() shorthand to scale both axes at the same time: `transform: scale(2);`.  
+Or define them independently of each other: `transform: scale(2, 4);`  
+
+**Don’t forget to add a transition!**  
+Without applying transition, the element would abruptly change sizes.  
+Add the transition to the parent selector (not the hover selector).  
+
+---
+
+With the **rotate** value, the element rotates clockwise or counterclockwise by a specified number of degrees.  
+A positive value, such as 90deg, rotates the element clockwise, while a negative value rotates it counterclockwise.  
+You can rotate more than a full rotation with numbers over than 360, such as 1080deg, for three full rotations.  
+
+---
+
+The **translate** value moves an element left/right and up/down.  
+The movement is based on the parameters given for the X (horizontal) Y (vertical) axes.  
+
+A positive X value moves the element to the right, while a negative X moves the element to the left.  
+A positive Y value moves the element downwards and a negative Y value, upwards.  
+
+---
+
+With the **skew** value, the element skews (or tilts) one direction or the other based on the values given for the X and Y axes.  
+
+A positive X value tilts the element left, while a negative X value tilts it right.  
+A positive Y value tilts the element down, and a negative Y value tilts is up.  
+Or use a shorthand to include both X and Y properties.  
+
+**Note**:  
+Skewing an element will also skew all of the children inside of the element as well (which may make text content unreadable).  
+If you need to maintain the original angle of a child element, you can use the opposite value of skew to bring it back.  
+
+---
+The `transform-origin` property is separate from the `transform` property but works in tandem with it.  
+It allows you to specify the location origin of the transform. By default, the origin is in the center of the element.  
+
+For example, if you are using the `transform: rotate();` property but want it to rotate not from the center, but from the top left corner, you’d use the value `left top`. For the bottom right corner, you would use `right bottom`, etc.  
+
+Make sure to add the `transform-origin` property to the parent element, not with the transform property in the hover selector.  
+```css
+div {
+  transform-origin: left top;
+  transition: transform 1s;
+}
+
+div:hover {
+  transform: rotate(720deg);
+}
+```
+
+---
+
+We can **combine** multiple transforms by using the `transform` shorthand:
+```css
+div {
+  transform: rotate(90deg) scale(2) translateY(-50%) translateX(50%);
+}
+```
 
 ---
 
