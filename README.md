@@ -484,9 +484,7 @@ To optimize loading times, we can use the following techniques:
 
 ### Content Delivery Network (CDN)
 
-A **Content Delivery Network** (CDN) is a system of geographically distributed servers designed to deliver web content efficiently and quickly to users based on their location.  
-
-By caching data on servers closer to the end user, CDNs reduce latency, improve loading speeds, and enhance the overall user experience (UX).  
+A **Content Delivery Network** (CDN) is a system of geographically distributed servers designed to deliver web content efficiently and quickly to users based on their location. By caching data on servers closer to the end user, CDNs reduce latency, improve loading speeds, and enhance the overall user experience (UX).  
 
 ## Flexbox
 
@@ -604,12 +602,19 @@ https://www.w3schools.com/cssref/css3_browsersupport.php
 ### Browser prefixes
 
 Sometimes, we need to use a **browser prefix** before the property name to make it work:  
-![browser_prefix](/assets/prefix.png.png)  
+![browser_prefix](/assets/prefix.png)  
 
 That happens when a new CSS property is introduced, and the browser vendors haven't implemented it yet.  
 For such experimental properties, the browser vendors add a prefix to the property name to indicate that it's still in development.  
 
-Another useful resource is the **Can I Use** website:  
+Example:
+```css
+-moz-box-shadow: 4px 4px 5px #888; /* Firefox */
+-ms-box-shadow: 4px 4px 5px #888; /* Edge */
+-webkit-box-shadow: 
+```
+
+A useful resource for checking a browser's compatibility with a specific feature:    
 https://caniuse.com/
 
 ---
