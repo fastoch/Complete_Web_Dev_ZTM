@@ -592,7 +592,10 @@ img:hover {
 The above code will make the images grow by 10% when hovered over.  
 The `transition` property is used to specify the duration of the transformation.  
 
-The `all` keyword specifies that the transition should apply to all animatable CSS properties of the element (color, background-color, transform, opacity, etc.). If you want to target specific properties, you can replace `all` with the property names.  
+The `all` keyword specifies that the transition should apply to all animatable CSS properties of the element (color, background-color, transform, opacity, etc.).  
+If you want to target specific properties, you can replace `all` with the property names.  
+
+---
 
 ## CSS newest features
 
