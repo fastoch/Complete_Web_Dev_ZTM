@@ -611,7 +611,7 @@ Example:
 ```css
 -moz-box-shadow: 4px 4px 5px #888; /* Firefox */
 -ms-box-shadow: 4px 4px 5px #888; /* Edge */
--webkit-box-shadow: 
+-webkit-box-shadow: 4px 4px 5px #888; /* Chrome, Safari, Opera */
 ```
 
 A useful resource for checking a browser's compatibility with a specific feature:    
