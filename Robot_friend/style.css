@@ -12,16 +12,19 @@ h1 {
 }
 
 .head {
-  margin-top: 2%;
   display: flex;
+  margin-top: 2%;
   width: 200px;
   height: 100px;
   background-color: #00f;
   border-radius: 100px 100px 0 0;
 }
 
-.eyes {
-  display: flex;
+.eye {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  padding: 25%;
 }
 
 .body {
