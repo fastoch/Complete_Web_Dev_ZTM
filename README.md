@@ -743,3 +743,12 @@ div {
 
 ## Robot Animation
 
+TO DO
+
+---
+
+# CDN
+
+Stands for Content Delivery Network.  
+A CDN is a network of servers that deliver content to users based on their geographic location.  
+
