@@ -747,8 +747,16 @@ TO DO
 
 ---
 
-# CDN
+# Bootstrap & CDNs 
 
-Stands for Content Delivery Network.  
+Bootstrap is a popular CSS framework that provides a set of pre-designed CSS styles and components.  
+These styles and components are hosted on a **CDN**, which prevents devs from having to download and host the files themselves.  
+
+CDN stands for **Content Delivery Network**.  
 A CDN is a network of servers that deliver content to users based on their geographic location.  
+
+All we need to do is to add the Bootstrap CDN link to our HTML file, inside the `<head>` tag. For example:
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+```
 
