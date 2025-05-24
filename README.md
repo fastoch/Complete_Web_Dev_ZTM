@@ -812,4 +812,24 @@ We're going to build a Bootstrap website in record time.
 
 ---
 
-# Bootstrap Grid
+# Bootstrap Grid Layout
+
+https://getbootstrap.com/docs/5.3/layout/grid/  
+
+The primary reason why Bootstrap was so popular is that we didn't have **Flexbox** back in the day.  
+Bootstrap allows us to create very responsive websites using a grid system.  
+
+see the `Bootstrap_grid` folder for an example of a Bootstrap grid layout  
+
+In Bootstrap, you always want to wrap everything in a container.  
+```html
+<div class="container">
+  ...
+</div>
+```
+
+The container is a special class that Bootstrap provides, among other numerous classes.  
+https://getbootstrap.com/docs/5.3/layout/containers/  
+
+
+The Bootstrap grid system is based on a **12-column** grid.  
