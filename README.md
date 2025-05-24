@@ -759,7 +759,7 @@ All we need to do to use Bootstrap is to add the Bootstrap CDN link to our HTML 
 The link needs to be added before any other stylesheets.  
 For example:
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.0/dist/css/bootstrap.min.css">
 ```  
 
 Once we have added the CDN link, we can use Bootstrap classes in our HTML code.  
@@ -772,6 +772,27 @@ If we want to customize our Bootstrap styles, we can do so by adding our own CSS
 And according to Cascading Style Sheets (CSS), the last stylesheet added will override the previous ones.  
 Then we use the same class name as the Bootstrap class name, and we define our custom styling.  
 
-# Bootstrap 5 Update
+# Changing versions
+
+As a developer, you may want to update the version of the packages you are using.  
+It's important to note that updating packages can sometimes cause issues, so it's important to test your code thoroughly before deploying it to production.  
+Maintaining the latest version of your packages is important for security and performance reasons.  
+
+If you want, for example, to update the Bootstrap version, you can do so by changing the version number in the CDN link.  
+For example, if you want to use Bootstrap 5.3.0, you can change the link to:
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+```
+
+You would also need to update the Bootstrap JavaScript files if you want to use Bootstrap's JavaScript features: 
+```html
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+```
+
+# Fast and the Furious Bootstrap
+
+
+
+
 
 
