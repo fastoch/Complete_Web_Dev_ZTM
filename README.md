@@ -753,10 +753,25 @@ Bootstrap is a popular CSS framework that provides a set of pre-designed CSS sty
 These styles and components are hosted on a **CDN**, which prevents devs from having to download and host the files themselves.  
 
 CDN stands for **Content Delivery Network**.  
-A CDN is a network of servers that deliver content to users based on their geographic location.  
+A CDN is a network of servers that delivers content to users based on their geographic location.  
 
-All we need to do is to add the Bootstrap CDN link to our HTML file, inside the `<head>` tag. For example:
+All we need to do to use Bootstrap is to add the Bootstrap CDN link to our HTML file, inside the `<head>` tag.  
+The link needs to be added before any other stylesheets.  
+For example:
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-```
+```  
+
+Once we have added the CDN link, we can use Bootstrap classes in our HTML code.  
+For example, if we want to add a nav bar to our page, we can simply copy the Bootstrap code for it and paste it into our HTML file.  
+We copy the code inside our `<body>` tag, of course.
+
+Bootstrap is **fully responsive**, meaning that it will automatically adjust its layout and styling to fit the screen size of the device it is being viewed on.  
+
+If we want to customize our Bootstrap styles, we can do so by adding our own CSS stylesheet after the Bootstrap CDN link.  
+And according to Cascading Style Sheets (CSS), the last stylesheet added will override the previous ones.  
+Then we use the same class name as the Bootstrap class name, and we define our custom styling.  
+
+# Bootstrap 5 Update
+
 
