@@ -772,6 +772,8 @@ If we want to customize our Bootstrap styles, we can do so by adding our own CSS
 And according to Cascading Style Sheets (CSS), the last stylesheet added will override the previous ones.  
 Then we use the same class name as the Bootstrap class name, and we define our custom styling.  
 
+---
+
 # Changing versions
 
 As a developer, you may want to update the version of the packages you are using.  
@@ -789,10 +791,25 @@ You would also need to update the Bootstrap JavaScript files if you want to use 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 ```
 
+---
+
 # Fast and the Furious Bootstrap
 
+We're going to build a Bootstrap website in record time.  
 
+- First, go to https://getbootstrap.com/docs/5.3/getting-started/download/
+- copy the following lines of code:
+```html
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous" defer></script>
+```
+- paste the code into the `head` section of your HTML file
+- add the `defer` attribute to the script tag to make sure the page loads before the script runs
+- in the `body` section, 
+  - add the navbar from this page: https://getbootstrap.com/docs/5.3/components/navbar/
+  - add the carousel from this page: https://getbootstrap.com/docs/5.3/components/carousel/
+  - add a modal and a button that triggers it from https://getbootstrap.com/docs/5.3/components/modal/
 
+---
 
-
-
+# Bootstrap Grid
