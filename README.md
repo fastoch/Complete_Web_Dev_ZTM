@@ -833,3 +833,10 @@ https://getbootstrap.com/docs/5.3/layout/containers/
 
 
 The Bootstrap grid system is based on a **12-column** grid.  
+
+---
+
+# Building a startup landing page
+
+We will build a startup landing page from scratch using Bootstrap.  
+See the `Bootstrap_grid` folder for the final result.
