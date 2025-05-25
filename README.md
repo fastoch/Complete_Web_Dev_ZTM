@@ -839,4 +839,22 @@ The Bootstrap grid system is based on a **12-column** grid.
 # Building a startup landing page
 
 We will build a startup landing page from scratch using Bootstrap.  
-See the `Bootstrap_grid` folder for the final result.
+See the `Bootstrap_grid` folder for the final result.  
+
+@Startup Landing Page 3
+
+---
+
+# What is the `<meta>` tag?
+
+The `<meta>` tag is used to provide **metadata** about the HTML document. Metadata is data (information) about data.  
+
+`<meta>` tags always go inside the `<head>` tag, and are typically used to specify:
+- **character set**, 
+- page description, 
+- **keywords**, 
+- author of the document, 
+- and **viewport** settings.
+
+Metadata will not be displayed on the page, but is machine-parsable.  
+Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.  
