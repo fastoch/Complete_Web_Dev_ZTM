@@ -876,4 +876,12 @@ More here: https://www.w3schools.com/tags/tag_meta.asp
 
 https://css-tricks.com/perfect-full-page-background-image/  
 
+Add the following to the html selector inside your .css file:
+```css
+background: url(../assets/startup_landing_page.jpg) no-repeat center center fixed;
+background-size: cover;
+```
+
+
+
 
