@@ -882,6 +882,46 @@ background: url(../assets/startup_landing_page.jpg) no-repeat center center fixe
 background-size: cover;
 ```
 
+## Startup Landing Page 4
 
+We apply a Bootstrap class to our h1 element so the text is uppercase:  
+`<h1 class="text-uppercase"><strong>The Biggest Startup Event of the Year</strong></h1>`  
 
+We also use a Bootstrap class to style the "Find out more" button:
+`<button type="button" class="btn btn-danger">Find out more</button>`
+
+Then, we can change the color of the button by adding our own custom class:
+`<button type="button" class="btn btn-danger btn-custom">Find out more</button>`
+
+And we define this custom class in our .css file:
+```css
+.btn-custom {
+  padding: 1rem;
+  font-weight: 500;
+  border-radius: 16px;
+  background-color: #F05F44;
+}
+``` 
+
+We can also add a hover effect to the button:
+```css
+.btn-custom:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 2px;
+}
+```
+
+We can add a horizontal line `<hr>` between the h1 and the button, and we can add some style to it:
+```css
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 164px;
+    opacity: 1;  
+}
+```
+
+## Startup Landing Page 5
 

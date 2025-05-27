@@ -17,6 +17,19 @@ hr {
     margin: 20px auto;
     color: #F05F44;
     border: 3px solid #F05F44;
-    max-width: 65px;
+    max-width: 164px;
     opacity: 1;  
+}
+
+.btn-custom {
+  padding: 1rem;
+  font-weight: 500;
+  border-radius: 16px;
+  background-color: #F05F44;
+}
+
+.btn-custom:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 2px;
 }
