@@ -9,27 +9,31 @@ body, html {
 }
 
 h1 {
-  font-size: 3rem;
-  color: #3a2424;
+  font-size: 3.2rem;
+  color: #F05F44;
+  text-shadow: 1px 1px 1px #fff;
+  margin-bottom: 0;
 }
 
 hr {
-    margin: 20px auto;
+    margin: 16px auto;
     color: #F05F44;
     border: 3px solid #F05F44;
-    max-width: 164px;
+    max-width: 82px;
     opacity: 1;  
 }
 
 .btn-custom {
-  padding: 1rem;
+  padding: 1.2rem;
   font-weight: 500;
   border-radius: 16px;
   background-color: #F05F44;
+  margin-bottom: 20px;
 }
 
 .btn-custom:hover {
   background-color: #ee4b08;
   border-color: #ee4b08;
   border-width: 2px;
+  font-weight: 600;
 }

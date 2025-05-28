@@ -918,7 +918,7 @@ hr {
     margin: 20px auto;
     color: #F05F44;
     border: 3px solid #F05F44;
-    max-width: 164px;
+    max-width: 82px;
     opacity: 1;  
 }
 ```
@@ -927,8 +927,10 @@ hr {
 
 Let's see how Bootstrap does **layout**.  
 
-First of all, inside our body tag, let's create a div with a class of `container`.  
-Inside that div, we create another div with a class of `row`.  
+### Make a Bootstrap Container
+
+First of all, inside our body tag, let's create a `<div>` with a class of `container`.  
+Inside that div, we create another `<div>` with a class of `row`.  
 
 Inside the `row` div, we'll put all the code already written in the body tag:
 ```html
@@ -943,18 +945,52 @@ Inside the `row` div, we'll put all the code already written in the body tag:
 </body>
 ```
 
+### Divide & Center (horizontally)
+
 Now, let's divide this row into different sections:  
-- the first section will be the header, so we'll put the h1 element into a header that has a Bootstrap class of 'text-center':
+
+- the first section will be the `<header>`, so we'll put the h1 element into a header that has a Bootstrap class of 'text-center':
 ```html
 <header class="text-center">
   <h1 class="text-uppercase"><strong>The Biggest Startup Event of the Year</strong></h1>
 </header>
 ```
-- the second section will include the button and the horizontal line, and will also have a Bootstrap class of 'text-center':
+
+- the second section will include the `<button>` and the horizontal line, and will also have a Bootstrap class of 'text-center':
 ```html
 <section class="text-center">
   <hr>
   <button type="button" class="btn btn-danger btn-custom">Find Out More</button>
 </section>
 ```
+
+### Positioning the Elements Vertically
+
+Now that our 3 elements are horizontally centered and included in a Bootstrap container, we can position them vertically.  
+The `d-flex` class is a Bootstrap class that allows us to use Flexbox. We need to apply this class to the `container` div.  
+Then, to position the elements at the bottom of the page, we need to use the `align-items-end` class.  
+
+```html
+<div class="container d-flex align-items-end">
+```
+
+At first, the above won't work, and that is because we the container does not fill the entire viewport height.  
+We'll use another Bootstrap class, `vh-100`, to set the height of the container to 100% of the viewport height.  
+```html
+<div class="container d-flex align-items-end vh-100">
+```
+
+## Mailchimp
+
+We can use a service called **Mailchimp** to collect email addresses from our users.  
+When they'll click the "Find Out More" button, they'll be redirected to a form where they can enter their email address.  
+
+First of all, we need to create a new account on Mailchimp. You can choose the free plan.  
+
+
+---
+
+# CSS Grid + CSS Layout
+
+
 
