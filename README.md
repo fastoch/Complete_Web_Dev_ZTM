@@ -925,3 +925,36 @@ hr {
 
 ## Startup Landing Page 5
 
+Let's see how Bootstrap does **layout**.  
+
+First of all, inside our body tag, let's create a div with a class of `container`.  
+Inside that div, we create another div with a class of `row`.  
+
+Inside the `row` div, we'll put all the code already written in the body tag:
+```html
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="text-uppercase"><strong>The Biggest Startup Event of the Year</strong></h1>
+      <hr>
+      <button type="button" class="btn btn-danger btn-custom">Find Out More</button>
+    </div>
+  </div>
+</body>
+```
+
+Now, let's divide this row into different sections:  
+- the first section will be the header, so we'll put the h1 element into a header that has a Bootstrap class of 'text-center':
+```html
+<header class="text-center">
+  <h1 class="text-uppercase"><strong>The Biggest Startup Event of the Year</strong></h1>
+</header>
+```
+- the second section will include the button and the horizontal line, and will also have a Bootstrap class of 'text-center':
+```html
+<section class="text-center">
+  <hr>
+  <button type="button" class="btn btn-danger btn-custom">Find Out More</button>
+</section>
+```
+
