@@ -980,16 +980,33 @@ We'll use another Bootstrap class, `vh-100`, to set the height of the container 
 <div class="container d-flex align-items-end vh-100">
 ```
 
-## Mailchimp
+## Mailchimp - Collecting Email Addresses
 
 We can use a service called **Mailchimp** to collect email addresses from our users.  
-When they'll click the "Find Out More" button, they'll be redirected to a form where they can enter their email address.  
+When they'll click the "**Find Out More**" button, they'll be redirected to a form where they can enter their email address.  
 
-First of all, we need to create a new account on Mailchimp. You can choose the free plan.  
-Then go to the **Audience** menu and you'll find a default signup form for your future customers (formulaire d'inscription).  
+- First of all, we need to create a new account on Mailchimp. You can choose the **free** plan.  
+- Then go to the **Audience** menu and create a new list of contacts (an audience) for your future subscribers.  
+- Once done, go to the **Campaign** menu, and click on **Create Campaign**.  
+- Choose **Landing Page**, give your landing page a name, select your target audience, and click **Begin**.  
+- Select the **Grow Your List** template, and customize it to suit your needs.  
+- Once your landing page is ready, click the "**Save & close**" button
+- Once everything is set up, just hit the "**Publish**" button
 
-You can customize this default form.  
-Once done, go to the **Campaign** menu, and click on **Create Campaign**.  
+Now that your landing page is live on the Web, copy the share link and use it with the "**Find Out More**" button.  
+To do that, include the button in an anchor tag with the `href` attribute set to the share link of your landing page:
+```html
+<a href="https://mailchi.mp/863d45c83b3f/fastoch-customers" target="_blank">
+  <button type="button" class="btn btn-danger btn-custom">Find Out More</button>
+</a>
+```
+
+Now, when users click on the "Find Out More" button, they'll be redirected to our landing page.  
+And the email address they enter will be added to our Mailchimp Audience (list of contacts).  
+
+---
+
+## Putting our Website Online
 
 
 
