@@ -1008,7 +1008,30 @@ And the email address they enter will be added to our Mailchimp Audience (list o
 
 ## Putting our Website Online
 
+- go to **github.com**
+- create an account if you don't have one already
+- create a new **public** repository and give it a name that suits your project
+- upload the project files to the repository (drag & drop the files)
+  - index.html
+  - style.css
+  - images folder (contains the background image)
+  - README.md
+- **Commit** changes
+- from the repository on GitHub, click on the "**Settings**" button
+- scroll down to the GitHub "**Pages**" section
+- select the "**master branch**" as the source
+- click on the "**Save**" button
+- wait a few minutes and refresh the page: you should see a link to your website
 
+### Deploying a Website with Netlify
+
+- go to **netlify.com**
+- create an account if you don't have one already
+- click on the "**New site from Git**" button
+- choose "**GitHub**" as the source
+- select the repository that contains your project
+- click on the "**Deploy site**"
+- wait a few minutes and refresh the page: you should see a link to your website
 
 ---
 
