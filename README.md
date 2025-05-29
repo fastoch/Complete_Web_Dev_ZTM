@@ -986,6 +986,11 @@ We can use a service called **Mailchimp** to collect email addresses from our us
 When they'll click the "Find Out More" button, they'll be redirected to a form where they can enter their email address.  
 
 First of all, we need to create a new account on Mailchimp. You can choose the free plan.  
+Then go to the **Audience** menu and you'll find a default signup form for your future customers (formulaire d'inscription).  
+
+You can customize this default form.  
+Once done, go to the **Campaign** menu, and click on **Create Campaign**.  
+
 
 
 ---
