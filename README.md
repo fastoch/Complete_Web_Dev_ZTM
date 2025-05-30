@@ -1099,17 +1099,48 @@ And I use **Cody** for VS Code.
 
 ---
 
-# CSS Grid + CSS Layout
+# CSS Grid + Flexbox 
 
 In this section, we're going to build an ideal webpage layout.  
 This is Andrei Neagoie's recommended way of laying out responsive web pages.  
-This template will serve as a good basis for our future projects.  
+This template will serve as an excellent basis for our future projects.  
 
-We're also going to learn how to use CSS **Grid**, which is a powerful layout system.  
+We will learn how to use CSS **Grid**, which is a powerful layout system.  
+And we'll see how to use CSS **Grid** in combination with **Flexbox**.  
+With such a skill in our toolbox, we won't need Bootstrap or any other libraries anymore.  
 
-Finally, we'll see how to use CSS Grid combined with **Flexbox**.  
-And with that in our toolbox, we won't even need Bootstrap or any other libraries moving forward.  
+CSS Grid and Flexbox are complementary technologies that work really well together.  
+Of course, Bootstrap already allows us to leverage these technologies.  
+But a good developer must understand how these technologies work under the hood.  
+Only using a library such as Bootstrap is not enough, it doesn't show mastery of the subject.  
 
+## CSS Grid
 
+Source files: https://cdn.fs.teachablecdn.com/nL4nVJuSy6jLAY4Vgz4Q  
+
+The first thing we need to do is to create a **container** for our grid.  
+In our index.html file, we'll add a `div` element with the class `container`.  
+And inside this div, we'll put all the div elements already existing in the body tag.  
+
+```html
+<body>
+  <div class="container">
+    <div class="zone green">🦊</div>
+    <div class="zone red">🐰</div>
+    <div class="zone blue">🐸</div>
+    <div class="zone yellow">🦁</div>
+    <div class="zone purple">🐯</div>
+    <div class="zone brown">🐭</div>
+    <div class="zone green">🦄</div>
+    <div class="zone red">🐲</div>
+    <div class="zone blue">🐷</div>
+    <div class="zone yellow">🐺</div>
+    <div class="zone purple">🐼</div>
+    <div class="zone brown">🐻</div>
+  </div>
+</body>
+```
+
+The way CSS Grid works is very similar to Flexbox.  
 
 
