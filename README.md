@@ -1008,6 +1008,8 @@ And the email address they enter will be added to our Mailchimp Audience (list o
 
 ## Putting our Website Online
 
+https://docs.github.com/en/pages/quickstart
+
 - go to **github.com**
 - create an account if you don't have one already
 - create a new **public** repository and give it a name that suits your project
@@ -1084,7 +1086,30 @@ https://www.creative-tim.com/
 
 ---
 
+# Using AI to build a portfolio
+
+My personal favorite is https://www.perplexity.ai/  
+And I use **Cody** for VS Code.  
+
+- Have your AI assistant to generate the code for you
+- Create a new repo in GitHub
+- Copy the AI-generated code into your new repo
+- Commit and push the code to GitHub
+- Deploy the code to Netlify or via GitHub Pages
+
+---
+
 # CSS Grid + CSS Layout
+
+In this section, we're going to build an ideal webpage layout.  
+This is Andrei Neagoie's recommended way of laying out responsive web pages.  
+This template will serve as a good basis for our future projects.  
+
+We're also going to learn how to use CSS **Grid**, which is a powerful layout system.  
+
+Finally, we'll see how to use CSS Grid combined with **Flexbox**.  
+And with that in our toolbox, we won't even need Bootstrap or any other libraries moving forward.  
+
 
 
 
