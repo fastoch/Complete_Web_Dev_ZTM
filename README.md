@@ -1035,6 +1035,55 @@ And the email address they enter will be added to our Mailchimp Audience (list o
 
 ---
 
+## CSS Animation
+
+See the 'Animate.css' folder for the code.  
+
+In this section, we'll use the following website: https://animate.style/  
+**Animate.css** is a library of ready-to-use, cross-browser animations for use in your web projects.  
+
+We can use it by adding it directly to our webpage using a CDN:  
+```html
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+```
+
+Then, we can use the animation classes to add animations to our elements. For example:
+```html
+<body>
+  <h1 class="animate__animated animate__bounce animate__repeat-3">Animate Me</h1>
+</body>
+```
+
+## DO NOT REINVENT THE WHEEL
+
+Using Animate.css is very similar to what we did with Bootstrap.  
+Such resources are vital to any developer's toolbox.  
+We don't want to spend time coding something that already exists, we must leverage other devs' work.  
+That principle applies to all aspects of web development, not just CSS.  
+
+**ONLY CODE WHAT YOU CAN'T FIND ONLINE**  
+
+### Another useful resource
+
+https://www.creative-tim.com/  
+
+---
+
+## Resources for FREE Templates
+
+- https://html5up.net/
+- https://www.creative-tim.com/  
+- https://www.free-css.com/
+- https://templatemo.com/
+- https://mdbootstrap.com/freebies/
+- https://themewagon.com/author/mashuptemplate/
+- https://startbootstrap.com/templates/
+- https://animate.style/
+
+---
+
 # CSS Grid + CSS Layout
 
 
