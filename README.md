@@ -1172,4 +1172,6 @@ If we have 2 columns of 1fr and 1 column of 2fr:
 - the first 2 columns will take 1/4 of the available space
 - the last column will take twice the space of the other two columns.
 
+### Additional Grid properties
 
+- `grid-template-rows` (see CSS Grid > style.css > container class)
