@@ -1174,4 +1174,23 @@ If we have 2 columns of 1fr and 1 column of 2fr:
 
 ### Additional Grid properties
 
-- `grid-template-rows` (see CSS Grid > style.css > container class)
+See CSS Grid > style.css > container class 
+
+- `grid-template-rows`: same as `grid-template-columns` but for rows
+- `justify-items`: aligns the grid items horizontally (defaults to stretch)
+- `align-items`: aligns the grid items vertically (defaults to stretch)
+
+### Not fully responsive yet
+
+To make our page truly responsive, we need to use `auto-fit` + `minmax` on the `grid-template-columns` property:
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+```
+
+In some cases, we may want to use `auto-fill` instead of `auto-fit`.  
+https://dev.to/musselmanth/the-dynamic-css-grid-configuration-ive-been-looking-for-1ogd  
+
+
