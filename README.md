@@ -1141,6 +1141,35 @@ And inside this div, we'll put all the div elements already existing in the body
 </body>
 ```
 
-The way CSS Grid works is very similar to Flexbox.  
+The way CSS Grid works is very similar to Flexbox:  
+- we give our 'container' class the property `display: grid;` (with Flexbox it's `display: flex;`)
+- and all the children of this container will be treated as grid items.
+- we can now comment out the display property of the 'zone' class.
+- then we tell the grid how many columns we want via the `grid-template-columns` property.
+
+The css code for the container is:
+```css
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
+```
+
+Another common property used with Grid is `gap`. It allows us to set the gap between the grid items.  
+
+### Making our webpage responsive
+
+For now, our webpage is not responsive, because each column has a fixed width of 300 pixels.  
+We could use percentages, but that would imply some calculation, which could be tricky when using  the `gap` property...  
+
+The **best way** to make our webpage **responsive** is to use the `fr` unit.  
+This unit is a **fraction** of the available space.  
+The available space is the viewport width minus the gaps.  
+
+So, if we have 3 columns of 1fr, each column will take 1/3 of the available space.  
+
+If we have 2 columns of 1fr and 1 column of 2fr: 
+- the first 2 columns will take 1/4 of the available space
+- the last column will take twice the space of the other two columns.
 
 
