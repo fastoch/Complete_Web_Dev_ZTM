@@ -1194,9 +1194,17 @@ In some cases, we may want to use `auto-fill` instead of `auto-fit`.
 https://dev.to/musselmanth/the-dynamic-css-grid-configuration-ive-been-looking-for-1ogd   
 https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/  
 
-THE ABOVE TIP IS REALLY POWERFUL, BECAUSE IT ALLOWS US TO NOT HAVE TO USE MEDIA QUERIES AT ALL.  
+THE ABOVE TIP IS REALLY **POWERFUL**, BECAUSE IT ALLOWS US TO NOT HAVE TO USE MEDIA QUERIES AT ALL!!!  
 
+---
 
+Up to this point, we've only focused on the Grid container.  
+But what about the individual grid items?  
+
+### Grid items
+
+How to select individual grid items within our container?  
+We can use a dedicated class 
 
 ---
 EOF
