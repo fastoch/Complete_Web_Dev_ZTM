@@ -1159,7 +1159,7 @@ Another common property used with Grid is `gap`. It allows us to set the gap bet
 
 ### Making our webpage responsive
 
-For now, our webpage is not responsive, because each column has a fixed width of 300 pixels.  
+For now, our webpage is not responsive yet, because each column has a fixed width of 300 pixels.  
 We could use percentages, but that would imply some calculation, which could be tricky when using  the `gap` property...  
 
 The **best way** to make our webpage **responsive** is to use the `fr` unit.  
@@ -1191,6 +1191,12 @@ To make our page truly responsive, we need to use `auto-fit` + `minmax` on the `
 ```
 
 In some cases, we may want to use `auto-fill` instead of `auto-fit`.  
-https://dev.to/musselmanth/the-dynamic-css-grid-configuration-ive-been-looking-for-1ogd  
+https://dev.to/musselmanth/the-dynamic-css-grid-configuration-ive-been-looking-for-1ogd   
+https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/  
+
+THE ABOVE TIP IS REALLY POWERFUL, BECAUSE IT ALLOWS US TO NOT HAVE TO USE MEDIA QUERIES AT ALL.  
 
 
+
+---
+EOF
