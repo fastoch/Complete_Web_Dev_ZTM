@@ -1204,7 +1204,20 @@ But what about the individual grid items?
 ### Grid items
 
 How to select individual grid items within our container?  
-We can use a dedicated class 
+We can use a dedicated class such as this one:
+```css
+.green {
+  grid-column: 1/3; /* items having this class will span 2 columns */
+}
+```
+
+In CSS Grid, `grid-column: 1/-1;` means "span all columns".  
+
+We can do the same with `grid-row`, to define the row span.  
+
+And if we don't want our item to start at a specific column or row, we can use `grid-column: span 2;`.  
+
+
 
 ---
 EOF
