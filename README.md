@@ -1229,7 +1229,9 @@ But to apply the same to individual grid items, we need to use the `justify-self
 
 ---
 
-## Flexbox
+## Exercise: CSS Layout Template
+
+See dedicated repo named "CSS-layout-template"
 
 
 
