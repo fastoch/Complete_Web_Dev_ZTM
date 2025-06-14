@@ -1194,7 +1194,7 @@ In some cases, we may want to use `auto-fill` instead of `auto-fit`.
 https://dev.to/musselmanth/the-dynamic-css-grid-configuration-ive-been-looking-for-1ogd   
 https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/  
 
-THE ABOVE TIP IS REALLY **POWERFUL**, BECAUSE IT ALLOWS US TO NOT HAVE TO USE MEDIA QUERIES AT ALL!!!  
+THE ABOVE TIP IS REALLY **POWERFUL**, BECAUSE IT ALLOWS US TO NOT HAVE TO USE MEDIA QUERIES AT ALL!  
 
 ---
 
@@ -1211,11 +1211,26 @@ We can use a dedicated class such as this one:
 }
 ```
 
-In CSS Grid, `grid-column: 1/-1;` means "span all columns".  
-
-We can do the same with `grid-row`, to define the row span.  
-
+In CSS Grid, `grid-column: 1/-1;` means "span all columns" (all available viewport width).  
 And if we don't want our item to start at a specific column or row, we can use `grid-column: span 2;`.  
+
+We can do the same with `grid-row`, in order to define the row span (the item's height).  
+
+
+`justify-items` and `align-items` are properties that can be applied to all grid items.  
+But to apply the same to individual grid items, we need to use the `justify-self` and `align-self` properties.  
+
+`justify-self: start;` puts the item at the start of the column.  
+`align-self: end;` puts the item at the end of the row.  
+
+
+**Grid Cheatsheet**: https://grid.malven.co/  
+**Fun game**: https://cssgridgarden.com/#fr
+
+---
+
+## Flexbox
+
 
 
 
